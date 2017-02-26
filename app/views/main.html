@@ -1,0 +1,30 @@
+<div class="jumbotron">
+  <h1>'Allo, 'Allo!</h1>
+  <p class="lead">
+    <img src="images/yeoman.png" alt="I'm Yeoman"><br>
+    Always a pleasure scaffolding your apps.
+  </p>
+  <div class="table-responsive">
+    <table class="table table-hover">
+      <thead>
+      <tr>
+        <th>ID</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>email</th>
+        <th>gender</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr ng-repeat="obj in myData">
+        <td>{{obj.id}}</td>
+        <td>{{obj.first_name}}</td>
+        <td>{{obj.last_name}}</td>
+        <td>{{obj.email}}</td>
+        <td>{{obj.gender}}</td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+
+</div>
